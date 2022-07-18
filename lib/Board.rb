@@ -1,5 +1,12 @@
 class Board
   def initialize
+    rows = 8
+    columns= 8
+
+    Array.new(rows).map do |row|
+      Array.new(columns)
+    end
+    
     #Create array of 63 (8x8) board
   end
 
